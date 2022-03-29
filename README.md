@@ -1,5 +1,5 @@
 # post_to_curl
-(Disclaimer: I wrote this before realizing it's already a built-in feature of Burp Suite)
+(Disclaimer: I wrote this before realizing it's already a built-in feature of Burp Suite)</br>
 Simple python script that converts an intercepted POST request from tools such as Burp Suite into a curl command. They say it's good practice to always mimic a request as closely as possible.</br></br>Please note that I'm not very experienced with these kinds of things and I'm aware that the program is kind of clunky to use right now. Allow me some time to improve as I'm learning new things every day :).
 # How to use
 Simply paste your intercepted POST body into input.txt and execute the script. Make sure input.txt is empty before pasting in new content, that includes deleting the text that's already there. Also make sure that every header is on a new line.
